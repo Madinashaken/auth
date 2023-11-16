@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="form-wrapper">
+      <h2 class="title">Вход в аккаунт</h2>
+      <form id="form" class="form">
+        <div class="form-group">
+          <label for="name">
+            Email:
+          </label>
+          <input id="email" type="email" placeholder="email@gmail.com" required>
+          <p id="emailError"></p>
+        </div>
+        <div class="form-group">
+          <label for="password">
+            Пароль:
+          </label>
+          <input id="password" type="password" placeholder="Введите пароль" required>
+          <p id="passwordError"></p>
+        </div>
+        <input type="submit" value="Вход">
+      </form>
+    </div>
+    <div class="success-msg-container">
+      <h2 id="msg" class="msg">Вы предоставили правильные данные, и ваша форма будет обработана</h2>
+    </div>
+  
+  <script src="script.js"></script>
+
+ 
+  
+
+</body>
+
+</html>
